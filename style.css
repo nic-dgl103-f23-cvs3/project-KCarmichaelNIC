@@ -62,3 +62,7 @@ h1{
    text-align: center;
    
 }
+.hero{
+    background-image: url(images/bgimage.webp);
+    height: 300px;
+}
