@@ -14,7 +14,6 @@ html{
     text-align: right;
     justify-content: space-between;
     list-style-type: none;
-    background-image: ;
 }
 /*hero*/
 h1{
@@ -25,4 +24,10 @@ h1{
     padding-top: 20px;
     background-image: url(images/bgimage.webp);
     height: 300px;
+}
+.Why{
+   font-size: 15px; 
+   text-align: center;
+   margin-bottom: 400000rem;
+
 }
