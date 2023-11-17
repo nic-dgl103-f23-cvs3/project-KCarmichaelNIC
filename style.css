@@ -76,6 +76,7 @@ h1{
 /*about section*/
 .aboutus{
     text-align: center;
+    padding-top: 4rem;
 }
 .about-us{
     background-image: url(images/about-img.webp);
