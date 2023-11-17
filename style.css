@@ -8,6 +8,9 @@ body{
 p{
     color: white;
 }
+h2{
+    color: white;
+}
 /*--Header--*/
 nav {
     margin-top: 10px;
