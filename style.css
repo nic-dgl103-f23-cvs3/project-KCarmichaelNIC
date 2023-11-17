@@ -64,6 +64,7 @@ h1{
 .hero{
     background-image: url(images/bgimage.webp);
     height: 300px;
+    width: 370px;
 }
 .contactbutton{
     border: #fff 1px solid;
