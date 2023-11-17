@@ -55,7 +55,6 @@ h1{
     clear: both;
     font-size: 40px;
     text-align: center;
-    padding-top: 20px;
     padding-top: 5rem;
 }
 .hero{
@@ -77,4 +76,9 @@ h1{
 /*about section*/
 .aboutus{
     text-align: center;
+}
+.about-us{
+    background-image: url(images/about-img.webp);
+    width: 370px;
+    height: 310px;
 }
