@@ -73,5 +73,7 @@ h1{
     margin-left: 15rem;
     color: white;
     text-decoration: none;
+    border: white 1px solid;
+    background-color: black;
     
 }
