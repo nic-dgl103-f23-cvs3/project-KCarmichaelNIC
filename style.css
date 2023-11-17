@@ -66,12 +66,12 @@ h1{
     width: 370px;
 }
 .contactbutton{
-    border: #fff 1px solid;
     font-size: 30px;
-    background-color: lightgreen;
     width: 5rem;
     border-radius: 6px;
-    padding: 4px;
+    padding: 5px;
     margin-left: 15rem;
+    color: white;
+    text-decoration: none;
     
 }
