@@ -6,6 +6,7 @@
 }
 .header{
     display: flex;
-    align-items: center;
+    text-align: right;
+    justify-content: space-between;
     list-style-type: none;
 }
