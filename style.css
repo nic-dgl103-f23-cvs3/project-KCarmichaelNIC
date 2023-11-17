@@ -4,6 +4,9 @@ html{
 body{
     background-color: black;
 }
+p{
+    color: white;
+}
 /*--Header--*/
 nav {
     margin-top: 10px;
@@ -27,9 +30,8 @@ nav a {
     color: #fff;
 }
 .logo{
-    float: left;
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 60px;
     margin-left: 14px;
 }
 .header{
