@@ -13,3 +13,6 @@
     list-style-type: none;
 }
 /*hero*/
+h1{
+    clear: both;
+}
