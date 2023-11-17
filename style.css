@@ -11,6 +11,9 @@ p{
 nav {
     margin-top: 10px;
 }
+li{
+    font-size: 20px;
+}
 
 nav ul {
     display: flex;
