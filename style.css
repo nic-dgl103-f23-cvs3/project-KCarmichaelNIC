@@ -5,6 +5,11 @@ body{
     background-color: black;
 }
 /*--Header--*/
+a{
+color: white;
+font-size: 15px;
+padding-right: 3px;
+}
 .logo{
     float: left;
     width: 90px;
