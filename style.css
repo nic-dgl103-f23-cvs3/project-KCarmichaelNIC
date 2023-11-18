@@ -174,3 +174,16 @@ footer {
     width: 500px;
     height: 100px;
 }
+header ul {
+    display: flex;
+  }
+  header li {
+    list-style: none;
+margin-left: 7rem;
+  }
+  header a {
+    font-size: 4rem;
+    color: #505d68;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
