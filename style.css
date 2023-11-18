@@ -170,3 +170,9 @@ float: right;
     background-image: url(images/bgimage.webp);
  width: auto;
 }
+.why{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+
+}
