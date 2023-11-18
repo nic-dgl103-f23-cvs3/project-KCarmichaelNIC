@@ -82,13 +82,12 @@ h1{
 .about1{
     text-align: center;
     color: white;
-    padding-top: 4rem;
+    padding-top: 1rem;
     font-size: 3rem;
 }
 .about-us{
-    background-image: url(images/about-img.webp);
-    width: 370px;
-    height: 310px;
+   text-align: center;
+   font-size: 2rem;
 }
 
 
