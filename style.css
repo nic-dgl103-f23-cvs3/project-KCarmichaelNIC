@@ -106,14 +106,16 @@ video{
     text-align: center;
 }
 /*CTA*/
+.cta{
+    background-image: url(images/bathroom.jpg);
+    width: 370px;
+    height: 310px;
+}
 .cta2{
     font-size: 30px;
     text-align: center;
 }
-.bathroom{
-    width: 370px;
-    height: 310px;
-}
+
 /*footer*/
 .footerlogo{
 width: 60px;
