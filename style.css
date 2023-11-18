@@ -187,6 +187,10 @@ nav a {
     background-color: black;
     padding: 3px;
 }
+.logo{
+    width: 90px;
+    height: 90px;
+}
 /*hero desktop*/
 .hero{
     background-repeat: no-repeat;
