@@ -106,3 +106,32 @@ video{
     text-align: center;
 }
 /*footer*/
+.footerlogo{
+
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+  }
+  footer nav {
+    margin-bottom: 3rem;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+  }
+  footer li {
+    margin: 3rem 2rem 0 0;
+  }
+  footer p {
+    border-top: 1px solid #a1aeb7;
+    padding-top: 1rem;
+    font-size: 14px;
+    color: #a1aeb7;
+  }
+  footer a {
+    text-decoration: none;
+    color: #505d68;
+    font-size: 12px;
+  }
