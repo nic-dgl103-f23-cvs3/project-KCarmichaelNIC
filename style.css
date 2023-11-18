@@ -106,7 +106,10 @@ video{
     text-align: center;
 }
 /*CTA*/
-
+.cta2{
+    font-size: 30px;
+    text-align: center;
+}
 /*footer*/
 .footerlogo{
 width: 60px;
