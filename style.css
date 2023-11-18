@@ -99,5 +99,9 @@ h1{
 
 /*portfolio*/
 video{
+
     width: 370px;
+}
+.Portfolio{
+    text-align: center;
 }
