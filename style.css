@@ -179,8 +179,8 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: black;
+    font-weight: bold;
     padding: 3px;
 }
 .logo{
@@ -191,7 +191,7 @@ nav a {
 .hero{
     background-repeat: no-repeat;
     background-image: url(images/bgimage.webp);
- width: 1920px;
+ width: auto;
 }
 .why{
     text-align: center;
