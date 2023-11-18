@@ -230,3 +230,10 @@ video{
   width: 90px;
   height: 90px;
 }
+.map{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 130rem;
+  
+}
