@@ -67,8 +67,10 @@ h1{
     height: 400px;
     width: 370px;
 }
-.contactbutton{
-
+.centerbutton{
+    display: flex;
+    justify-content: center;
+}
 }
 /*about section*/
 .aboutus{
