@@ -56,21 +56,24 @@ h1{
     text-align: center;
     padding-top: 2rem;
 }
+.build1{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
 .hero{
     background-image: url(images/bgimage.webp);
     height: 400px;
     width: 370px;
 }
 .contactbutton{
-    font-size: 20px;
-    width: 5rem;
-    border-radius: 6px;
+    font-size: 2rem;
+    border-radius: 3px;
     padding: 5px;
-    margin-left: 13rem;
     color: white;
     text-decoration: none;
     border: white 1px solid;
-    
 }
 /*about section*/
 .aboutus{
