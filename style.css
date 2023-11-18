@@ -99,13 +99,16 @@ h1{
 
 
 /*portfolio*/
-video{
-
-    width: 370px;
-}
-.Portfolio{
+.projects{
+    margin-top: 6rem;
+    font-size: 3rem;
     text-align: center;
 }
+video{
+    margin-top: 0;
+    width: 370px;
+}
+
 /*CTA*/
 .cta{
     background-image: url(images/bathroom.jpg);
