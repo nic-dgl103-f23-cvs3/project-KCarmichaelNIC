@@ -68,12 +68,7 @@ h1{
     width: 370px;
 }
 .contactbutton{
-    font-size: 2rem;
-    border-radius: 3px;
-    padding: 5px;
-    color: white;
-    text-decoration: none;
-    border: white 1px solid;
+
 }
 /*about section*/
 .aboutus{
@@ -87,14 +82,7 @@ h1{
     height: 310px;
 }
 .aboutbutton{
-    font-size: 20px;
-    width: 5rem;
-    border-radius: 6px;
-    padding: 5px;
-    margin-left: 13rem;
-    color: white;
-    text-decoration: none;
-    border: white 1px solid;
+ 
 }
 
 /*portfolio*/
@@ -117,14 +105,7 @@ video{
     padding-top: 4rem;
 }
 .contactnow{
-    font-size: 20px;
-    width: 5rem;
-    border-radius: 6px;
-    padding: 5px;
-    margin-left: 13rem;
-    color: white;
-    text-decoration: none;
-    border: white 1px solid;
+  
 }
 
 /*footer*/
@@ -161,55 +142,4 @@ footer {
   /* DESKTOP*/
   /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: ]1700px) {
-}
-nav {
-    margin-top: 10px;
-}
-li{
-    font-size: 30px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding:9px;
-}
-
-nav ul li {
-    display: flex;
-    margin-top: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 3px;
-}
-.logo{
-    width: 90px;
-    height: 90px;
-}
-/*hero desktop*/
-.hero{
-    background-repeat: no-repeat;
-    background-image: url(images/bgimage.webp);
- width: 500px;
-}
-.why{
-    text-align: center;
-    font-size: 2.5rem;
-    color: white;
-}
-.contactbutton{
-    display: flex;
-    font-size: 20px;
-    width: 5rem;
-    border-radius: 6px;
-    padding: 5px;
-    margin-left: 13rem;
-    color: white;
-    text-decoration: none;
-    border: white 1px solid;
-    
 }
