@@ -156,7 +156,7 @@ footer {
   }
   /* DESKTOP*/
   /* Large devices (desktops, 1200px and up) */
-@media only screen and (min-width: ]1700px) {
+@media only screen and (min-width: 1700px) {
 }
 nav {
     margin-top: 10px;
@@ -191,7 +191,7 @@ nav a {
 .hero{
     background-repeat: no-repeat;
     background-image: url(images/bgimage.webp);
- width: auto;
+ width: 1920px;
 }
 .why{
     text-align: center;
