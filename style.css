@@ -1,5 +1,6 @@
 html{
     font-size: 62.5%;
+    
 }
 body{
     background-color: black;
@@ -16,7 +17,7 @@ nav {
     margin-top: 10px;
 }
 li{
-    font-size: 2rem;
+    font-size: 20px;
 }
 
 nav ul {
@@ -52,12 +53,12 @@ nav a {
 h1{
     color: white;
     clear: both;
-    font-size: 4rem;
+    font-size: 30px;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 5px;
 }
 .build1{
-    font-size: 2rem;
+    font-size: 20px;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -73,7 +74,7 @@ h1{
 }
 .contactbutton{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 20px;
     color:white;
     font-weight: bold;
 }
@@ -82,12 +83,12 @@ h1{
 .about1{
     text-align: center;
     color: white;
-    padding-top: 1rem;
-    font-size: 3rem;
+    padding-top: 10px;
+    font-size: 40px;
 }
 .about-us{
    text-align: center;
-   font-size: 2rem;
+   font-size: 20px;
 }
 .aboutbutton{
     color: #a1aeb7;
@@ -100,7 +101,7 @@ h1{
 
 /*portfolio*/
 .projects{
-    margin-top: 6rem;
+    margin-top: 50px;
     font-size: 3rem;
     text-align: center;
 }
@@ -117,20 +118,20 @@ video{
 .cta2{
     font-size: 30px;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 40px;
 }
 .contactnow{
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 20px;
 }
 .satisfaction{
 list-style-type: none;
 text-align: center;
 color: white;
-font-size: 1rem;
+font-size: 20px;
 }
 
 
@@ -170,23 +171,3 @@ footer {
 @media only screen and (min-width: 1700px) {
 }
 
-.logo{
-    width: 500px;
-    height: 100px;
-}
-nav{
-    margin-left: 100rem;
-}
-header ul {
-    display: flex;
-  }
-  header li {
-    list-style: none;
-margin-left: 7rem;
-  }
-  header a {
-    font-size: 4rem;
-    color: #505d68;
-    text-decoration: none;
-    margin-left: 1rem;
-  }
