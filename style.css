@@ -162,8 +162,30 @@ footer {
   /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: ]1700px) {
 }
-nav{
-float: right;
+nav {
+    margin-top: 10px;
+}
+li{
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding:9px;
+}
+
+nav ul li {
+    display: flex;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 3px;
 }
 .hero{
     background-repeat: no-repeat;
@@ -174,5 +196,7 @@ float: right;
     text-align: center;
     font-size: 2.5rem;
     color: white;
-
+}
+.centerbutton{
+    
 }
