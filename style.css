@@ -92,6 +92,9 @@ h1{
 .aboutbutton{
     color: #a1aeb7;
     text-decoration: none;
+    border: #a1aeb7 1px solid;
+    padding: 6px;
+    border-radius: 7px;
 }
 
 
