@@ -185,7 +185,7 @@ footer {
   }
   /*hero desktop*/
   .hero{
-    width: 1800px;
+    width: 1900px;
     background-repeat: no-repeat;
   }
   .build{
@@ -209,3 +209,6 @@ footer {
     color: black;
 }
 /*portfolio*/
+video{
+ width: 1900px;
+}
