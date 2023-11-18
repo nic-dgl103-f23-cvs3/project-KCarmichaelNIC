@@ -107,7 +107,8 @@ video{
 }
 /*footer*/
 .footerlogo{
-
+width: 60px;
+height: 60px;
 }
 footer {
     text-align: center;
