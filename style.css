@@ -199,4 +199,12 @@ footer {
   /*about us desktop*/
   .about-us{
     background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
+    height: 200px;
+    margin: -33px;
   }
+.about1{
+    color: black;
+}
+.aboutus{
+    color: black;
+}
