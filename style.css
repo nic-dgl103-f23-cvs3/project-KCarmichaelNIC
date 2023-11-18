@@ -126,7 +126,10 @@ video{
     color: white;
     font-size: 2rem;
 }
-
+.satisfaction{
+list-style-type: none;
+text-align: center;
+}
 
 /*footer*/
 .footerlogo{
