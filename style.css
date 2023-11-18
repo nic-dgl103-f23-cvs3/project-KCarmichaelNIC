@@ -7,12 +7,9 @@ body{
 /*text elements*/
 p{
     color: white;
-    font-size: 15px;
-    color: white;
 }
 h2{
     color: white;
-    font-size: 30px;
 }
 /*--Header--*/
 nav {
@@ -55,9 +52,9 @@ nav a {
 h1{
     color: white;
     clear: both;
-    font-size: 40px;
+    font-size: 4rem;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 .hero{
     background-image: url(images/bgimage.webp);
