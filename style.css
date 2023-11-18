@@ -183,6 +183,7 @@ footer {
     font-weight: bold;
     text-decoration: none;
   }
+  /*hero desktop*/
   .hero{
     width: 1800px;
     background-repeat: no-repeat;
@@ -192,4 +193,6 @@ footer {
     height: 200px;
   }
   /*about us desktop*/
-  
+  .build{
+    display: flex;
+  }
