@@ -110,6 +110,10 @@ video{
     font-size: 30px;
     text-align: center;
 }
+.bathroom{
+    width: 370px;
+    height: 310px;
+}
 /*footer*/
 .footerlogo{
 width: 60px;
