@@ -74,24 +74,23 @@ h1{
 .contactbutton{
     text-decoration: none;
     font-size: 2rem;
-    color: white;
+    color:white;
     font-weight: bold;
 }
-}
+
 /*about section*/
-.aboutus{
+.about1{
     text-align: center;
+    color: white;
     padding-top: 4rem;
-    margin-bottom: 3rem;
+    font-size: 3rem;
 }
 .about-us{
     background-image: url(images/about-img.webp);
     width: 370px;
     height: 310px;
 }
-.aboutbutton{
- 
-}
+
 
 /*portfolio*/
 video{
@@ -112,9 +111,7 @@ video{
     text-align: center;
     padding-top: 4rem;
 }
-.contactnow{
-  
-}
+
 
 /*footer*/
 .footerlogo{
@@ -149,5 +146,5 @@ footer {
   }
   /* DESKTOP*/
   /* Large devices (desktops, 1200px and up) */
-@media only screen and (min-width: ]1700px) {
+@media only screen and (min-width: 1700px) {
 }
