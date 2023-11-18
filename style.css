@@ -112,8 +112,7 @@ video{
 /*CTA*/
 .cta{
     background-image: url(images/bathroom.jpg);
-    width: 370px;
-    height: 310px;
+    height: 300px;
 }
 .cta2{
     font-size: 30px;
