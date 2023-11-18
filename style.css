@@ -116,6 +116,16 @@ video{
     text-align: center;
     padding-top: 4rem;
 }
+.contactnow{
+    font-size: 20px;
+    width: 5rem;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 13rem;
+    color: white;
+    text-decoration: none;
+    border: white 1px solid;
+}
 
 /*footer*/
 .footerlogo{
