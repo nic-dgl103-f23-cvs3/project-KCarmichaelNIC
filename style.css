@@ -129,7 +129,10 @@ video{
 .satisfaction{
 list-style-type: none;
 text-align: center;
+color: red;
+font-size: 1rem;
 }
+
 
 /*footer*/
 .footerlogo{
