@@ -79,9 +79,20 @@ h1{
 .aboutus{
     text-align: center;
     padding-top: 4rem;
+    margin-bottom: 3rem;
 }
 .about-us{
     background-image: url(images/about-img.webp);
     width: 370px;
     height: 310px;
+}
+.aboutbutton{
+    font-size: 20px;
+    width: 5rem;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 13rem;
+    color: white;
+    text-decoration: none;
+    border: white 1px solid;
 }
