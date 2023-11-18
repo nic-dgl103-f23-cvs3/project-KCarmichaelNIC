@@ -8,3 +8,9 @@ nav{
 li{
     font-size: 1.6rem;
 }
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+}
