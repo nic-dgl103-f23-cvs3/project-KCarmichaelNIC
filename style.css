@@ -16,7 +16,7 @@ nav {
     margin-top: 10px;
 }
 li{
-    font-size: 15px;
+    font-size: 2rem;
 }
 
 nav ul {
@@ -129,7 +129,7 @@ video{
 .satisfaction{
 list-style-type: none;
 text-align: center;
-color: red;
+color: white;
 font-size: 1rem;
 }
 
@@ -168,4 +168,9 @@ footer {
   /* DESKTOP*/
   /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1700px) {
+}
+
+.logo{
+    width: 500px;
+    height: 100px;
 }
