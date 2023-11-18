@@ -197,4 +197,6 @@ footer {
     height: 200px;
   }
   /*about us desktop*/
-  
+  .about-us{
+    background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
+  }
