@@ -2,3 +2,9 @@ body{
     background-color: grey;
 }
 /*header*/
+nav{
+    margin-top: 1rem;
+}
+li{
+    font-size: 1.6rem;
+}
