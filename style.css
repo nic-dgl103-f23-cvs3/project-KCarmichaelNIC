@@ -168,7 +168,7 @@ footer {
   }
   /* DESKTOP*/
   /* Large devices (desktops, 1200px and up) */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
 }
 
   header ul {
@@ -216,3 +216,9 @@ video{
     font-size: 40px;
 }
 /*CTA desktop*/
+.cta{
+    margin: -27px;
+    background-repeat: no-repeat;
+    background-image: url(images/bgimage.webp);
+    width: 1900px;
+}
