@@ -1,14 +1,25 @@
+html{
+    font-size: 62.5%;
+}
 body{
     background-color: black;
-    margin: 0;
 }
-
+/*text elements*/
+p{
+    color: white;
+    font-size: 15px;
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
 /*--Header--*/
 nav {
     margin-top: 10px;
 }
 li{
-    font-size: 1rem;
+    font-size: 15px;
 }
 
 nav ul {
@@ -44,20 +55,24 @@ nav a {
 h1{
     color: white;
     clear: both;
-    font-size: 3rem;
+    font-size: 40px;
     text-align: center;
     padding-top: 5rem;
 }
 .hero{
     background-image: url(images/bgimage.webp);
     height: 400px;
-    max-width: 1920px;
+    width: 370px;
 }
 .contactbutton{
-display: flex;
-justify-content: center;
-text-decoration: none;
-color: white;
+    font-size: 20px;
+    width: 5rem;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 13rem;
+    color: white;
+    text-decoration: none;
+    border: white 1px solid;
     
 }
 /*about section*/
@@ -68,7 +83,7 @@ color: white;
 }
 .about-us{
     background-image: url(images/about-img.webp);
-   width: auto;
+    width: 370px;
     height: 310px;
 }
 .aboutbutton{
@@ -145,7 +160,7 @@ footer {
   }
   /* DESKTOP*/
   /* Large devices (desktops, 1200px and up) */
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: ]1700px) {
 }
 nav {
     margin-top: 10px;
@@ -168,8 +183,8 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: white;
+    background-color: black;
     padding: 3px;
 }
 .logo{
@@ -188,22 +203,14 @@ nav a {
     color: white;
 }
 .contactbutton{
- text-align: center;
-    font-size: 3rem;
-    text-decoration: underline;
+    display: flex;
+    font-size: 20px;
+    width: 5rem;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 13rem;
+    color: white;
+    text-decoration: none;
+    border: white 1px solid;
+    
 }
-/*about us desktop*/
-.aboutus{
-    text-align: center;
-    padding-top: 4rem;
-    margin-bottom: 3rem;
-}
-.about-us{
-    background-image: url(images/about-img.webp);
-    width: auto;
-    background-repeat: no-repeat;
-}
-.aboutbutton{
-   
-}
-
