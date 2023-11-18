@@ -223,3 +223,10 @@ video{
     
 }
 /*footer desktop*/
+.footerlogo{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  width: 90px;
+  height: 90px;
+}
