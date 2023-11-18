@@ -119,6 +119,10 @@ video{
     text-align: center;
     padding-top: 4rem;
 }
+.contactnow{
+    display: flex;
+    justify-content: center;
+}
 
 
 /*footer*/
