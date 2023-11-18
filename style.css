@@ -188,11 +188,13 @@ footer {
     width: 1800px;
     background-repeat: no-repeat;
   }
+  .build{
+    display: flex;
+    justify-content: center;
+  }
   .logo{
     width: 300px;
     height: 200px;
   }
   /*about us desktop*/
-  .build{
-    display: flex;
-  }
+  
