@@ -208,11 +208,14 @@ footer {
     font-size: 18px;
 }
 /*portfolio*/
-video{
-  width: 1200px;
+.video{
+  
   display: flex;
   justify-content: center;
-  margin-left: 15rem;
+  align-items: center;
+}
+video{
+  width: 1200px;
 }
 .projects{
     font-size: 40px;
