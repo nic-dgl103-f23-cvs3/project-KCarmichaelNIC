@@ -22,7 +22,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding:0;
+    padding:10px;
 }
 
 nav a {
@@ -33,6 +33,7 @@ nav a {
     float: left;
     width: 30px;
     height: 30px;
+    padding-right: 40px;
 }
 .header{
     display: flex;
