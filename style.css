@@ -37,11 +37,11 @@ header ul {
 }
 
 header li {
-  margin-left: 2px;
+  margin-left: 20px;
 
   font-size: 12px;
 
-  height: 50%;
+  height: 50px;
 }
 
 header a {
