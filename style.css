@@ -199,7 +199,6 @@ footer {
   .about-us{
     background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
     height: 300px;
-    margin: -33px;
   }
 .about1{
     color: black;
@@ -234,6 +233,6 @@ video{
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  margin-left: 110rem;
+text-align: right;
   
 }
