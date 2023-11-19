@@ -283,15 +283,16 @@ text-align: right;
   width: 702px;
 }
 /*terms*/
-.terms {
-  border-top: 3px solid lightgrey;
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  padding-top: 6px;
-}
 .spacing {
   margin-top: 2rem;
 }
 .form {
   margin-left: 40rem;
+}
+.logotext{
+  display: flex;
+  justify-content: flex-start;
+}
+.text{
+  font-size: 40px;
 }
