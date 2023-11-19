@@ -33,14 +33,14 @@ nav a {
     float: left;
     width: 30px;
     height: 30px;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 .header{
     display: flex;
     text-align: center;
     justify-content: space-between;
     list-style-type: none;
-   
+   background-color: blue;
 }
 /*hero*/
 h1{
