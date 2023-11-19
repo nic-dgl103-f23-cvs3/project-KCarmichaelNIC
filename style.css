@@ -185,7 +185,7 @@ footer {
   }
   /*hero desktop*/
   .hero{
-    width: 1900px;
+    width: 1500px;
     background-repeat: no-repeat;
   }
   .build{
@@ -207,10 +207,11 @@ footer {
 }
 .aboutus{
     color: black;
+    font-size: 18px;
 }
 /*portfolio*/
 video{
- width: 1900px;
+ width: 1500px;
 }
 .projects{
     font-size: 40px;
