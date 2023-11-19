@@ -25,7 +25,6 @@ justify-content: flex-start;
 .logohead {
 float: left;
 width: 100px;
-height: 90px;
 }
 
 header ul {
@@ -33,15 +32,15 @@ header ul {
 
   list-style: none;
 
-  margin-right: 60px;
+  margin-right: 6px;
 }
 
 header li {
-  margin-left: 20px;
+  margin-left: 2px;
 
   font-size: 12px;
 
-  height: 50px;
+  height: 50%;
 }
 
 header a {
