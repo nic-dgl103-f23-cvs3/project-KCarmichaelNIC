@@ -64,7 +64,6 @@ h1{
     font-weight: bold;
 }
 .hero{
-    background-image: url(images/eberhard-grossgasteiger-iAkAhmq0bvA-unsplash.jpg);
     height: 400px;
     width: 370px;
 }
@@ -179,7 +178,7 @@ footer {
   }
   header a {
     font-size: 30px;
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
   }
