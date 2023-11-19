@@ -209,7 +209,10 @@ footer {
 }
 /*portfolio*/
 video{
- width: 1500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-left: 15rem;
 }
 .projects{
     font-size: 40px;
