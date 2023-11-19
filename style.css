@@ -14,33 +14,40 @@ h2{
 }
 /*--Header--*/
 
-li{
-    font-size: 20px;
+header {
+  height:60px;
+  justify-content: space-between;
+  display: flex;
+justify-content: flex-start;
+  align-items: center;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding:10px;
+.logohead {
+float: left;
+width: 100px;
+height: 90px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
+header ul {
+  display: flex;
+
+  list-style: none;
+
+  margin-right: 60px;
 }
-.logo{
-    float: left;
-    width: 30px;
-    height: 30px;
-    padding-right: 30px;
+
+header li {
+  margin-left: 2px;
+
+  font-size: 12px;
+
+  height: 50%;
 }
-.header{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    list-style-type: none;
-   background-color: blue;
+
+header a {
+  text-decoration: none;
+
+  color: white;
 }
 /*hero*/
 h1{
