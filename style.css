@@ -236,3 +236,50 @@ video{
 text-align: right;
   
 }
+.mapsection {
+  background-color: #424b5a;
+
+  height: 386px;
+
+  color: #ffff;
+
+  overflow: hidden;
+}
+
+.mapsection h2 {
+  font-size: 50px;
+
+  margin-bottom: 2rem;
+}
+
+.mapsection p {
+  margin-bottom: 3rem;
+}
+
+.mapsection a {
+  background-color: #ffff;
+
+  color: #424b5a;
+
+  text-decoration: none;
+
+  margin-top: 2rem;
+
+  padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+
+  font-size: 12px;
+
+  border-radius: 8px;
+}
+
+.mapsection .flex-container {
+  display: flex;
+
+  justify-content: space-around;
+
+  padding: 4rem;
+}
+
+.mapsection .flex-item {
+  width: 702px;
+}
