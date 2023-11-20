@@ -80,10 +80,14 @@ h1{
 /*about section*/
 .about-us{
   display: flex;
-  justify-content: center;
-  text-align: center;
+ text-align: center;
+ justify-content: center;
   font-size: 15px;
-  padding-top: 30px;
+  padding-top: 90px;
+}
+.about1{
+ display: flex;
+ justify-content: center;
 }
 .aboutbutton{
     color: #a1aeb7;
