@@ -78,15 +78,12 @@ h1{
 }
 
 /*about section*/
-.about1{
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-    font-size: 40px;
-}
 .about-us{
-   text-align: center;
-   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 30px;
 }
 .aboutbutton{
     color: #a1aeb7;
@@ -182,9 +179,6 @@ footer {
     text-decoration: none;
   }
   /*hero desktop*/
-  .hero{
-   
-  }
   .build{
     display: flex;
     justify-content: center;
@@ -197,14 +191,9 @@ footer {
   .about-us{
     background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
     height: 300px;
+    display: flex;
   }
-.about1{
-    color: black;
-}
-.aboutus{
-    color: black;
-    font-size: 18px;
-}
+
 /*portfolio*/
 .video{
   
