@@ -231,8 +231,8 @@ video{
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-  width: 90px;
-  height: 90px;
+ width: 40px;
+ height: 50px;
 }
 .map{
   display: flex;
@@ -299,7 +299,8 @@ text-align: right;
   justify-content: flex-start;
 }
 .text{
-  font-size: 40px;
+  font-size: 30px;
+  margin-left: 10px;
 }
 .nav2{
   float: right;
