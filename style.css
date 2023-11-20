@@ -314,7 +314,7 @@ text-align: right;
 /*Form*/
 .feedback-input {
   color:white;
-  font-family:;
+   font-family: 'Lato', sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
