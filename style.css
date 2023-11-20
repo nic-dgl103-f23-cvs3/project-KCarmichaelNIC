@@ -88,6 +88,8 @@ h1{
 .about1{
  display: flex;
  justify-content: center;
+ font-size: 30px;
+ background-image: url();
 }
 .aboutbutton{
     color: #a1aeb7;
@@ -196,6 +198,7 @@ footer {
     background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
     height: 300px;
     display: flex;
+    color: black;
   }
 
 /*portfolio*/
