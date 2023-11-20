@@ -183,9 +183,7 @@ footer {
   }
   /*hero desktop*/
   .hero{
-    width: 1500px;
-    
-    background-image: url(images/My\ Movie\ 4-540p30.mov);
+   
   }
   .build{
     display: flex;
@@ -213,6 +211,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 500px;
 }
 video{
   width: 1200px;
