@@ -198,6 +198,11 @@ footer {
     margin-top: 40px;
     padding-top: 50px;
   }
+  .buildwithus{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   /*about us desktop*/
   .about-us{
     background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
