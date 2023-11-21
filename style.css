@@ -246,7 +246,10 @@ video{
   display: flex;
   justify-content: center;
 }
-
+.bath{
+  width: 400px;
+  height: 200px;
+}
 /*memberships*/
 .member{
   background-color: white;
@@ -285,7 +288,7 @@ video{
   float: right;
 }
 /*Form*/
-form{
+form .text{
   display: flex;
   justify-content: center;
   flex-direction: column;
