@@ -429,6 +429,7 @@ textarea {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-image: url(images/hero2.jpg);
 }
 /*contact form*/
 /*how to contact- map address loacation phone number*/
