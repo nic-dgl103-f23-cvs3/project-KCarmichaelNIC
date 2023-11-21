@@ -235,7 +235,10 @@ video{
     
 }
 /*memberships*/
-
+.member{
+  display: flex;
+  flex-direction: row;
+}
 /*footer desktop*/
 .footerlogo{
   display: flex;
