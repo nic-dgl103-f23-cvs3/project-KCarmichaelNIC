@@ -271,13 +271,7 @@ video{
   flex-direction: row;
 
 }
-.footerlogo{
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
- width: 40px;
- height: 50px;
-}
+
 .logotext{
   display: flex;
   justify-content: flex-start;
@@ -289,8 +283,11 @@ video{
   text-align: center;
   
 }
-.nav2{
-  float: right;
+
+/*footer nav*/
+.footer2{
+  display: flex;
+  justify-content: center;
 }
 /*Form*/
 form .text{
