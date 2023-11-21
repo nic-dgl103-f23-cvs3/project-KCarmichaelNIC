@@ -305,6 +305,10 @@ iframe{
   width: 600px;
   height: 400px;
 }
+.map2{
+  display: flex;
+  justify-content: center;
+}
 /*Form*/
 form .text{
   display: flex;
