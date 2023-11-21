@@ -266,6 +266,11 @@ video{
 .spacing {
   margin-top: 2rem;
 }
+.footer2{
+  display: inline-block;
+  flex-direction: row;
+
+}
 .footerlogo{
   display: flex;
   justify-content: flex-end;
