@@ -312,6 +312,12 @@ text-align: right;
   float: right;
 }
 /*Form*/
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+}
 .feedback-input {
   color:white;
    font-family: 'Lato', sans-serif;
