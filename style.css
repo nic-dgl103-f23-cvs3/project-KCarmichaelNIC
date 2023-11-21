@@ -236,11 +236,9 @@ video{
     font-size: 40px;
 }
 /*CTA desktop*/
-.cta{
-    margin: -20px;
-    background-repeat: no-repeat;
-    background-image: url(images/bgimage.webp);
-    
+.text{
+  text-align: center;
+  display: flex;
 }
 /*memberships*/
 .member{
@@ -253,61 +251,7 @@ video{
 .netzero{
   width: 300px;
 }
-/*Map and location desktop*/
 
-.map{
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-text-align: right;
-
-  
-}
-.mapsection {
-  height: 386px;
-
-  color: #ffff;
-display: flex;
-flex-direction: column;
-}
-
-.mapsection h2 {
-  font-size: 35px;
-
-  margin-bottom: 2rem;
-}
-
-.mapsection p {
-  margin-bottom: 3rem;
-}
-
-.mapsection a {
-  background-color: #ffff;
-
-  color: #424b5a;
-
-  text-decoration: none;
-
-  margin-top: 2rem;
-
-  padding: 0.8rem 2.5rem 0.8rem 2.5rem;
-
-  font-size: 12px;
-
-  border-radius: 8px;
-}
-
-.mapsection .flex-container {
-  display: flex;
-
-  justify-content: space-around;
-
-  padding: 4rem;
-}
-
-.mapsection .flex-item {
-  width: 702px;
-}
 /*Footer desktop*/
 .spacing {
   margin-top: 2rem;
