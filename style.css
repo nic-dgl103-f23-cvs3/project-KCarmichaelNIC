@@ -236,8 +236,14 @@ video{
 }
 /*memberships*/
 .member{
+  background-color: white;
+  width: 900px;
   display: flex;
   flex-direction: row;
+  
+}
+.netzero{
+  width: 300px;
 }
 /*footer desktop*/
 .footerlogo{
