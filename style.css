@@ -295,11 +295,15 @@ video{
 .footer2{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+ 
 }
 .desktopfoot a{
 margin-left: 20px;
 font-size: 30px;
+}
+iframe{
+  width: 600px;
+  height: 400px;
 }
 /*Form*/
 form .text{
