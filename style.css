@@ -16,12 +16,9 @@ h2{
 }
 /*--Header--*/
 
-header {
-  height:60px;
-  justify-content: space-between;
+.navigation{
   display: flex;
-justify-content: flex-start;
-  align-items: center;
+  margin-top: 60px;
 }
 .logohead{
   width: 90px;
@@ -256,32 +253,26 @@ video{
 .netzero{
   width: 300px;
 }
-/*footer desktop*/
-.footerlogo{
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
- width: 40px;
- height: 50px;
-}
+/*Map and location desktop*/
+
 .map{
   display: flex;
   justify-content: center;
   margin-top: 40px;
 text-align: right;
+
   
 }
 .mapsection {
-
   height: 386px;
 
   color: #ffff;
-
-  overflow: hidden;
+display: flex;
+flex-direction: column;
 }
 
 .mapsection h2 {
-  font-size: 50px;
+  font-size: 35px;
 
   margin-bottom: 2rem;
 }
@@ -317,11 +308,17 @@ text-align: right;
 .mapsection .flex-item {
   width: 702px;
 }
-/*terms*/
+/*Footer desktop*/
 .spacing {
   margin-top: 2rem;
 }
-
+.footerlogo{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+ width: 40px;
+ height: 50px;
+}
 .logotext{
   display: flex;
   justify-content: flex-start;
