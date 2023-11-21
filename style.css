@@ -317,6 +317,7 @@ video{
 }
 .location{
   margin-left: 20px;
+  display: flex;
 }
 .desktopfoot a{
 margin-left: 20px;
@@ -326,7 +327,10 @@ iframe{
   width: 600px;
   height: 400px;
 }
-
+.container{
+  display: flex;
+  flex-direction: column;
+}
 
 .map2{
   display: flex;
