@@ -271,6 +271,9 @@ video{
   flex-direction: row;
 
 }
+.memberships{
+  font-size: 40px;
+}
 
 .logotext{
   display: flex;
