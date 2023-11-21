@@ -425,6 +425,11 @@ textarea {
 /*top nav*/
 
 /*hero*/
+.contacthero{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 /*contact form*/
 /*how to contact- map address loacation phone number*/
 /*footer*/
