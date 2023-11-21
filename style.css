@@ -196,13 +196,14 @@ footer {
   iframe{
     width: 600px;
     height: 400px;
+    
   }
   .container{
     display: flex;
     flex-direction: column;
   }
   .design{
-    width: 400px;
+    width: 100px;
     height: 300px;
     margin-left: 90px;
   }
