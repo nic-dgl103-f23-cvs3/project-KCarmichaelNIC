@@ -274,13 +274,14 @@ footer {
   .location{
     margin-left: 20px;
     display: flex;
+    font-size: 20px;
   }
   .desktopfoot a{
   margin-left: 20px;
   font-size: 30px;
   }
   iframe{
-    width: 600px;
+    width: 200px;
     height: 400px;
     
   }
@@ -434,10 +435,7 @@ video{
 margin-left: 20px;
 font-size: 30px;
 }
-iframe{
-  width: 600px;
-  height: 400px;
-}
+
 .container{
   display: flex;
   flex-direction: column;
