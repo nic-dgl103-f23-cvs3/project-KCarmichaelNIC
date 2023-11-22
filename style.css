@@ -280,11 +280,7 @@ footer {
   margin-left: 20px;
   font-size: 30px;
   }
-  iframe{
-    width: 200px;
-    height: 400px;
-    
-  }
+
   .container{
     display: flex;
     flex-direction: column;
