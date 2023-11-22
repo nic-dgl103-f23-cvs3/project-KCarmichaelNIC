@@ -520,6 +520,16 @@ textarea {
   margin: auto;
   height: 400px;
 }
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.contactnow2{
+  font-size: 20px;
+}
 /*contact form*/
 /*how to contact- map address loacation phone number*/
 /*footer*/
