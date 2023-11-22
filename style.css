@@ -288,9 +288,10 @@ footer {
     flex-direction: column;
   }
   .design{
-    width: 100px;
+    width: 40px;
     height: 300px;
     margin-left: 90px;
+    display: none;
   }
   .map2{
     display: flex;
@@ -444,6 +445,7 @@ iframe{
   width: 400px;
   height: 300px;
   margin-left: 90px;
+ 
 }
 .map2{
   display: flex;
