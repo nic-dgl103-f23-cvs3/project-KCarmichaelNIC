@@ -96,10 +96,11 @@ h2{
 }
 /*--Header--*/
 
-.navigation{
+.navigation3{
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  display: none;
 }
 .logohead{
   width: 90px;
