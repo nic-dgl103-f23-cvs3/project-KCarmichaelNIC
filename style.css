@@ -539,6 +539,9 @@ textarea {
 }
 /*contact form*/
 /*Form*/
+form{
+  margin-top: 20px;
+}
 form .text{
   display: flex;
   justify-content: center;
