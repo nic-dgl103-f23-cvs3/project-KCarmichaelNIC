@@ -531,7 +531,10 @@ textarea {
 }
 .contactnow2{
   font-size: 20px;
-  
+  color: white;
+  border: white 2px solid;
+  padding: 5px;
+  border-radius: 6px;
 
 }
 /*contact form*/
