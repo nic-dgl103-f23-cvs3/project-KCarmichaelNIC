@@ -422,6 +422,11 @@ textarea {
 [type="submit"]:hover {
   background: #cc4949;
 }
+h3{
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
 /*contact page mobile*/
 /*top nav*/
 
