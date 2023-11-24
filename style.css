@@ -456,9 +456,9 @@ h3{
   border-radius: 6px;
 }
 /*contact form*/
-.contactform {
+.have{
   font-size: 20px;
-  margin-left: 40px;
+  text-align: center;
 }
 /*Form*/
 .contactform{
@@ -466,7 +466,7 @@ h3{
   flex-direction: column;
   background-color: #a1aeb7;
   border-radius: 4px;
-  max-width: 400px;
+max-width: 1000px;
   padding: 30px;
 }
 h3{
@@ -477,7 +477,6 @@ form .text {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  width: 400px;
   margin-top: 40px;
 }
 .feedback-input {
@@ -528,14 +527,14 @@ textarea {
 /*how to contact- map address loacation phone number*/
 .contactmap{
   display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  max-width: 300px;
+  justify-content: center;
+ 
 }
-.mapcontainer{
-  display: flex;
-  text-align: center;
+.map{
+  margin-left: 50px;
+  height: 600px;
 }
+
 /*table section*/
 table{
   color: white;
