@@ -595,5 +595,10 @@ textarea {
   margin-top: 30px;
 
 }
-
+.howtocontact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 /*footer*/
