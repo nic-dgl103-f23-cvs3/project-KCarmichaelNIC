@@ -14,86 +14,7 @@ h2 {
   color: white;
   font-family: "Playfair Display", serif;
 }
-/*hamburger menu*/ /*learned from watching multiple youtube videos*/
 
-.burger-checkbox {
-  position: absolute;
-  visibility: hidden;
-}
-.burger {
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
-  display: block;
-  position: relative;
-  border: none;
-  background: transparent;
-  width: 40px;
-  height: 26px;
-}
-.burger::before,
-.burger::after {
-  content: "";
-  left: 0;
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 10px;
-  background: white;
-}
-.burger::before {
-  top: 0;
-  box-shadow: 0 11px 0 white;
-  transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
-}
-.burger::after {
-  bottom: 0;
-  transition: bottom 0.3s 0.15s, transform 0.3s;
-}
-.burger-checkbox:checked + .burger::before {
-  top: 11px;
-  transform: rotate(45deg);
-  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
-  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
-}
-.burger-checkbox:checked + .burger::after {
-  bottom: 11px;
-  transform: rotate(-45deg);
-  transition: bottom 0.3s, transform 0.3s 0.15s;
-}
-.menu-list {
-  top: 0;
-  left: 0;
-  position: absolute;
-  display: grid;
-  gap: 12px;
-  padding: 42px 0;
-  margin: 0;
-  background: red;
-  list-style-type: none;
-  transform: translateX(-200%);
-  transition: 0.3s;
-  width: 200px;
-}
-.menu-item {
-  display: block;
-  padding: 8px;
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  text-decoration: none;
-}
-.menu-item:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-.burger-checkbox:checked ~ .menu-list {
-  transform: translateX(0);
-}
-.menu {
-  display: flex;
-  justify-content: flex-end;
-}
 /*--Header--*/
 
 .navigation3 {
@@ -102,7 +23,6 @@ h2 {
   margin-top: 10px;
   display: none;
   max-width: 1170px;
-  margin: auto;
 }
 .logohead {
   width: 90px;
@@ -113,13 +33,13 @@ header ul {
 
   list-style: none;
 
-  margin-right: 60px;
+  margin-right: 20px;
 }
 
 header li {
   margin-left: 20px;
 
-  font-size: 12px;
+  font-size: 10px;
 
   height: 50%;
 }
@@ -512,6 +432,7 @@ textarea {
   flex-direction: column;
   background-image: url(images/hero2.jpg);
   max-width: 1170px;
+  object-fit: cover;
   margin: auto;
   height: 400px;
 }
