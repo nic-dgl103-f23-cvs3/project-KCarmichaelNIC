@@ -639,7 +639,7 @@ table {
   margin: auto;
   height: 400px;
   text-align: center;
-  background-color: white;
+ background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
 }
 .ourteam {
   color: #000;
@@ -650,7 +650,7 @@ table {
   color: #cc4949;
   border: 2px solid red;
   border-radius: 20px;
-  padding: 5px 5px;
+  padding: 10px;
   margin: 3px 0;
   text-align: center;
 }
@@ -666,9 +666,15 @@ table {
   font-size: 30px;
   background-color: #cc4949;
 }
+.whatwedotext{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
 .contactnow3 {
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 20px;
+  padding: 10px;
 }
 .contactnow3:hover {
   background-color: #a1aeb7;
@@ -683,6 +689,10 @@ table {
   border-radius: 20px;
   margin-top: 20px;
 }
+.tablecontainer{
+  margin-bottom: 20px;
+}
+.table
 /*hover effects*/
 .aboutbutton:hover{
   color: #000;
