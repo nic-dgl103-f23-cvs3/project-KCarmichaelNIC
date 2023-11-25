@@ -296,10 +296,13 @@ footer a {
 }
 
 .navigation3 {
-  display: flex;
+display: flex;
+justify-content: center;
 }
 header ul {
   display: flex;
+  justify-content: center;
+  text-align: center;
 }
 header li {
   list-style: none;
@@ -311,7 +314,7 @@ header a {
   text-decoration: none;
 }
 .navigation {
-  display: flex;
+ 
   margin-top: 60px;
 }
 /*hero desktop*/
