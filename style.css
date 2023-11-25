@@ -99,7 +99,7 @@ h1 {
 }
 .burger::before,
 .burger::after {
-  content: '';
+  content: "";
   left: 0;
   position: absolute;
   display: block;
@@ -111,22 +111,22 @@ h1 {
 .burger::before {
   top: 0;
   box-shadow: 0 11px 0 #000;
-  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
 }
 .burger::after {
   bottom: 0;
-  transition: bottom .3s .15s, transform .3s;
+  transition: bottom 0.3s 0.15s, transform 0.3s;
 }
 .burger-checkbox:checked + .burger::before {
   top: 11px;
   transform: rotate(45deg);
-  box-shadow: 0 6px 0 rgba(0,0,0,0);
-  transition: box-shadow .15s, top .3s, transform .3s .15s;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
 }
 .burger-checkbox:checked + .burger::after {
   bottom: 11px;
   transform: rotate(-45deg);
-  transition: bottom .3s, transform .3s .15s;
+  transition: bottom 0.3s, transform 0.3s 0.15s;
 }
 .menu-list {
   top: 0;
@@ -139,7 +139,7 @@ h1 {
   background: green;
   list-style-type: none;
   transform: translateX(-100%);
-  transition: .3s;
+  transition: 0.3s;
   width: 200px;
 }
 .menu-item {
@@ -151,7 +151,7 @@ h1 {
   text-decoration: none;
 }
 .menu-item:hover {
-  background: rgba(255,255,255,.2)
+  background: rgba(255, 255, 255, 0.2);
 }
 .burger-checkbox:checked ~ .menu-list {
   transform: translateX(0);
@@ -294,12 +294,12 @@ footer a {
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
-.headerbg{
+.headerbg {
   background-color: green;
 }
 .navigation3 {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 header ul {
   display: flex;
@@ -316,7 +316,6 @@ header a {
   text-decoration: none;
 }
 .navigation {
- 
   margin-top: 60px;
 }
 /*hero desktop*/
@@ -502,7 +501,7 @@ textarea {
 [type="submit"]:hover {
   background: #cc4949;
 }
-h3{
+h3 {
   color: white;
   font-size: 20px;
   display: flex;
@@ -536,25 +535,25 @@ h3{
   border-radius: 6px;
 }
 /*contact form*/
-.have{
+.have {
   font-size: 20px;
   text-align: center;
 }
-.mapcontainer{
+.mapcontainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 /*Form*/
-.contactform{
+.contactform {
   display: flex;
   flex-direction: column;
   background-color: #a1aeb7;
   border-radius: 4px;
-max-width: 1000px;
+  max-width: 1000px;
   padding: 30px;
 }
-h3{
+h3 {
   font-size: 20px;
 }
 form .text {
@@ -610,22 +609,21 @@ textarea {
   background: green;
 }
 /*how to contact- map address loacation phone number*/
-.contactmap{
+.contactmap {
   display: flex;
   justify-content: center;
- 
 }
-.map{
+.map {
   margin-left: 50px;
   height: 600px;
 }
 
 /*table section*/
-table{
+table {
   color: white;
 }
 /*About us page*/
-.qualification{
+.qualification {
   font-size: 20px;
   color: #000;
 }
@@ -639,11 +637,11 @@ table{
   text-align: center;
   background-color: white;
 }
-.ourteam{
+.ourteam {
   color: #000;
   font-size: 40px;
 }
-.learn{
+.learn {
   font-size: 25px;
   color: #cc4949;
   border: 2px solid red;
@@ -652,11 +650,11 @@ table{
   margin: 3px 0;
   text-align: center;
 }
-.learn:hover{
+.learn:hover {
   background-color: #000;
 }
 /*what we do*/
-.whatwedo{
+.whatwedo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -664,15 +662,15 @@ table{
   font-size: 30px;
   background-color: #cc4949;
 }
-.contactnow3{
+.contactnow3 {
   border: 1px solid black;
   border-radius: 5px;
 }
-.contactnow3:hover{
+.contactnow3:hover {
   background-color: #a1aeb7;
 }
 /*Team Table*/
-table{
+table {
   font-size: 20px;
   display: flex;
   text-align: center;
@@ -681,3 +679,4 @@ table{
   border-radius: 20px;
   margin-top: 20px;
 }
+/*hover effects*/
