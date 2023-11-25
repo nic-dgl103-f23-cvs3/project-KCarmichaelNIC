@@ -640,3 +640,15 @@ table{
   color: #000;
   font-size: 40px;
 }
+.learn{
+  font-size: 25px;
+  color: #cc4949;
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 5px 5px;
+  margin: 3px 0;
+  text-align: center;
+}
+.learn:hover{
+  background-color: #000;
+}
