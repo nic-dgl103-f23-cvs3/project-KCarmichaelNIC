@@ -684,3 +684,20 @@ table {
   margin-top: 20px;
 }
 /*hover effects*/
+.aboutbutton:hover{
+  color: #000;
+  background-color: red;
+  border:3px solid black;
+}
+.contactbutton:hover{
+  border: 2px solid red;
+  border-radius: 25px;
+  background-color: green;
+  padding: 9px;
+  color: black;
+}
+.contactnow2:hover{
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+}
