@@ -628,13 +628,14 @@ table{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url(images/colleagues-working-together-medium-shot.jpg);
+ 
   background-repeat: no-repeat;
-  max-width: 1170px;
+
   object-fit: cover;
   margin: auto;
   height: 400px;
   text-align: center;
+  background-color: white;
 }
 .ourteam{
   color: #000;
@@ -651,4 +652,20 @@ table{
 }
 .learn:hover{
   background-color: #000;
+}
+/*what we do*/
+.whatwedo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  background-color: #cc4949;
+}
+.contactnow3{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.contactnow3:hover{
+  background-color: #a1aeb7;
 }
