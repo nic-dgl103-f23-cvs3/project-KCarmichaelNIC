@@ -621,30 +621,22 @@ table{
 }
 /*About us page*/
 .qualification{
-  font-size: 15px;
+  font-size: 20px;
+  color: #000;
 }
 .team {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url(images/hero.png);
+  background-image: url(images/colleagues-working-together-medium-shot.jpg);
+  background-repeat: no-repeat;
   max-width: 1170px;
   object-fit: cover;
   margin: auto;
   height: 400px;
   text-align: center;
 }
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
-.contactnow2 {
-  font-size: 20px;
-  color: white;
-  border: white 2px solid;
-  padding: 5px;
-  border-radius: 6px;
+.ourteam{
+  color: #000;
+  font-size: 40px;
 }
