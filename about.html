@@ -21,7 +21,15 @@
 
 <body>
     <header>
-
+        <div class="menu">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label for="burger-checkbox" class="burger"></label>
+            <ul class="menu-list">
+                <li><a href="index.html" class="menu-item">Home</a></li>
+                <li><a href="about.html" class="menu-item">About</a></li>
+                <li><a href="contact.html" class="menu-item">Contact</a></li>
+            </ul>
+        </div>
         <div class="navigation">
             <img class="logohead" src="images/designlogo.webp" alt="logo">
 
@@ -71,5 +79,22 @@
             </tr>
           </table>
         </section>
+        <div class="flex-container">
+            <div class="logotext">
+              <div class="text">
+                <h2>Do you want premium quality homes? <br>
+                  Do you want the best materials for the best price, contact us now!</h2>
+                <form>
+                  <h3>Name</h3>
+                  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+                  <h3>Email</h3>
+                  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                  <h3>comments</h3>
+                  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                  <input type="submit" value="SUBMIT" />
+                </form>
+              </div>
+            </div>
+          </div>
 </body>
 </html>
