@@ -628,9 +628,6 @@ table{
   display: flex;
   justify-content: center;
   flex-direction: column;
- 
-  background-repeat: no-repeat;
-
   object-fit: cover;
   margin: auto;
   height: 400px;
@@ -668,4 +665,14 @@ table{
 }
 .contactnow3:hover{
   background-color: #a1aeb7;
+}
+/*Team Table*/
+table{
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 20px;
 }
