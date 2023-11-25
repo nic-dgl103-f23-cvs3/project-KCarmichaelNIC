@@ -460,6 +460,10 @@ h3{
   font-size: 20px;
   text-align: center;
 }
+.mapcontainer{
+  display: flex;
+  flex-direction: row;
+}
 /*Form*/
 .contactform{
   display: flex;
