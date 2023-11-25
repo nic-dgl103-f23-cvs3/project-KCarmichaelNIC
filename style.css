@@ -337,7 +337,6 @@ header a {
 .about-us {
   background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
   height: 300px;
-  display: flex;
 }
 .aboutbutton {
   display: flex;
@@ -353,16 +352,22 @@ header a {
 }
 
 /*portfolio*/
+.Portfolio{
+  background-color: black;
+}
 .video {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 video {
-  width: 500px;
+ max-width: 1170px;
+ margin: auto;
+  margin-bottom: 40px;
 }
 .projects {
   font-size: 40px;
+  color: white;
 }
 /*CTA desktop*/
 .text {
@@ -374,6 +379,7 @@ video {
 .flex-container {
   display: flex;
   justify-content: center;
+  background-color: darkgray;
 }
 .bath {
   width: 400px;
@@ -506,8 +512,6 @@ h3 {
   font-size: 20px;
   display: flex;
 }
-/*contact page mobile*/
-/*top nav*/
 
 /*hero*/
 .contacthero {
