@@ -20,7 +20,7 @@ h2 {
 .navigation3 {
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
+
   display: none;
   max-width: 1170px;
 }
@@ -64,7 +64,8 @@ h1 {
   font-weight: bold;
 }
 .buildwithus {
-  margin-top: 30px;
+  margin-top: 1px;
+  background-color: red;
 }
 .hero {
   height: 400px;
@@ -696,8 +697,8 @@ table {
 /*hover effects*/
 .aboutbutton:hover{
   color: #000;
-  background-color: red;
-  border:3px solid black;
+  background-color: green;
+  
 }
 .contactbutton:hover{
   border: 2px solid red;
