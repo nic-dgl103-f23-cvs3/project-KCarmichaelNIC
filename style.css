@@ -712,3 +712,57 @@ table {
   color: #000;
   font-weight: bold;
 }
+.centerbutton{
+  
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn{
+  border: none;
+  color: #000;
+  width: 300px;
+  height: 60px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 1.2em; 
+}
+.btn .btnLable{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black; /*button initial background color*/
+}
+.btn .btnLable span{
+  height:100%;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.btn .btnLable .btnText{
+  font-weight: bold;
+  font-family: sans-serif;
+  z-index:1;
+  line-height: 60px;
+  position: relative;
+  top: -100%;
+  transition: all 0.3s ease-out;
+}
+.btn .btnLable .btnHoverMask{
+  background-color: white;
+  width:0%;
+  transform: skew(-15deg);
+  z-index:0;
+  margin-left: -10%;
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover .btnHoverMask{
+  width: 120%;
+}
+.btn:hover .btnText{
+  color: #000;
+}
