@@ -339,7 +339,7 @@ header a {
   background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
   height: 300px;
 }
-.aboutbutton {
+.aboutbuttoncointainer {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -362,7 +362,7 @@ header a {
   align-items: center;
 }
 video {
- max-width: 1170px;
+  max-width: 1170px;
  margin: auto;
   margin-bottom: 40px;
 }
@@ -382,20 +382,7 @@ video {
   justify-content: center;
   background-color: darkgray;
 }
-.bath {
-  width: 400px;
-  height: 200px;
-}
-/*memberships*/
-.member {
-  background-color: white;
-  width: 900px;
-  display: flex;
-  flex-direction: row;
-}
-.netzero {
-  width: 300px;
-}
+
 
 /*Footer desktop*/
 .spacing {
@@ -695,9 +682,9 @@ table {
 }
 .table
 /*hover effects*/
-.aboutbutton:hover{
-  color: #000;
-  background-color: green;
+.aboutbuttoncointainer:hover{
+  background-color: red;
+  color: white;
   
 }
 .contactbutton:hover{
