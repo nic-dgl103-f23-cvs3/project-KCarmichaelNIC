@@ -63,9 +63,10 @@ h1 {
   color: white;
   font-weight: bold;
 }
-.buildwithus, .centerbutton{
+.buildwithus,
+.centerbutton {
   margin-top: 1px;
- background-image: url(images/eberhard-grossgasteiger-iAkAhmq0bvA-unsplash.jpg);
+  background-image: url(images/eberhard-grossgasteiger-iAkAhmq0bvA-unsplash.jpg);
 }
 .hero {
   height: 400px;
@@ -245,11 +246,11 @@ iframe {
   height: 300px;
   margin-left: 90px;
 }
-.mapsection{
+.mapsection {
   display: flex;
   flex-direction: column;
 }
-.logo{
+.logo {
   padding-top: px;
   width: 400px;
   height: 400px;
@@ -294,7 +295,7 @@ footer a {
   margin-left: 20px;
   font-size: 30px;
 }
-.desktopfoot{
+.desktopfoot {
   color: white;
 }
 
@@ -372,7 +373,7 @@ header a {
 }
 
 /*portfolio*/
-.Portfolio{
+.Portfolio {
   background-color: black;
 }
 .video {
@@ -382,7 +383,7 @@ header a {
 }
 video {
   max-width: 1170px;
- margin: auto;
+  margin: auto;
   margin-bottom: 40px;
 }
 .projects {
@@ -401,7 +402,6 @@ video {
   justify-content: center;
   background-color: darkgray;
 }
-
 
 /*Footer desktop*/
 .spacing {
@@ -430,10 +430,10 @@ video {
 .footer2 {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 .location {
   margin-left: 20px;
-
 }
 .desktopfoot a {
   margin-left: 20px;
@@ -453,14 +453,13 @@ iframe {
   margin-left: 90px;
 }
 
-.mapsection{
+.mapsection {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.logo{
-  
+.logo {
   padding-left: 20px;
   width: 400px;
   height: 400px;
@@ -652,7 +651,7 @@ table {
   margin: auto;
   height: 400px;
   text-align: center;
- background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
+  background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
 }
 .ourteam {
   color: #000;
@@ -679,7 +678,7 @@ table {
   font-size: 30px;
   background-color: #cc4949;
 }
-.whatwedotext{
+.whatwedotext {
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -704,140 +703,136 @@ table {
   border-radius: 20px;
   margin-top: 20px;
 }
-.tablecontainer{
+.tablecontainer {
   margin-bottom: 20px;
 }
 .table
 /*hover effects*/
-.aboutbuttoncointainer:hover{
+.aboutbuttoncointainer:hover {
   background-color: red;
   color: white;
-  
 }
-.contactbutton:hover{
+.contactbutton:hover {
   border: 2px solid red;
   border-radius: 25px;
   background-color: green;
   padding: 9px;
   color: black;
 }
-.contactnow2:hover{
+.contactnow2:hover {
   background-color: white;
   color: #000;
   font-weight: bold;
 }
-.centerbutton{
+.centerbutton {
   display: flex;
   justify-content: center;
-  
 }
 
-.btn{
+.btn {
   border: 3px solid white;
   border-radius: 25px;
   color: #000;
- width: 200px;
+  width: 200px;
   padding: 0;
   overflow: hidden;
   cursor: pointer;
-  font-size: 20px; 
+  font-size: 20px;
 }
-.btn .btnLable{
+.btn .btnLable {
   margin: 0;
   height: 100%;
   width: 100%;
   background-color: black; /*button initial background color*/
 }
-.btn .btnLable span{
-  height:100%;
+.btn .btnLable span {
+  height: 100%;
   width: 100%;
   display: block;
   position: relative;
 }
-.btn .btnLable .btnText{
+.btn .btnLable .btnText {
   font-weight: bold;
   font-family: sans-serif;
-  z-index:1;
+  z-index: 1;
   line-height: 60px;
   position: relative;
   top: -100%;
   transition: all 0.3s ease-out;
 }
-.btn .btnLable .btnHoverMask{
+.btn .btnLable .btnHoverMask {
   background-color: white;
-  width:0%;
+  width: 0%;
   transform: skew(-15deg);
-  z-index:0;
+  z-index: 0;
   margin-left: -10%;
   transition: all 0.3s ease-out;
 }
 
-.btn:hover .btnHoverMask{
+.btn:hover .btnHoverMask {
   width: 120%;
 }
-.btn:hover .btnText{
+.btn:hover .btnText {
   color: #000;
 }
-.contactfooter:hover{
+.contactfooter:hover {
   background-color: #cc4949;
   border: 5px solid green;
 }
-.aboutfooter:hover{
+.aboutfooter:hover {
   background-color: #cc4949;
   border: 5px solid green;
 }
-.portfoliofooter:hover{
+.portfoliofooter:hover {
   background-color: #cc4949;
   border: 5px solid green;
-
 }
 /*page under construction*/
-.under
-{
-background: url(images/SUHmERE.png);
-background-repeat:repeat;
+.under {
+  background: url(images/SUHmERE.png);
+  background-repeat: repeat;
 }
- .under2{
+.under2 {
   text-shadow: 1px 1px 1px #606060;
-  opacity:0.95;
-  margin-top:15px;
-  font-size:35px;
-  color:#202020;
-  
+  opacity: 0.95;
+  margin-top: 15px;
+  font-size: 35px;
+  color: #202020;
 }
- .under3{
+.under3 {
   text-shadow: 1px 1px 1px #606060;
   text-align: center;
-  opacity:0.95;
-  margin-top:-20px;
-  font-size:25px;
-  color:#202020;
+  opacity: 0.95;
+  margin-top: -20px;
+  font-size: 25px;
+  color: #202020;
 }
-div.overlay{
-  width:100%;
-  position:absolute;
-  top:0; right:0; bottom:0;
-  background-color:black;
-  opacity:0.4;
-  filter:alpha(opacity=40);
-  }
-div.text{
-  text-align:center;
+div.overlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
 }
-div.image{
-  width:100%;
-  text-align:center;
-  opacity:0.60;
-  box-shadow:2px 2px 2px #606060;  
+div.text {
+  text-align: center;
 }
-.goback{
+div.image {
+  width: 100%;
+  text-align: center;
+  opacity: 0.6;
+  box-shadow: 2px 2px 2px #606060;
+}
+.goback {
   font-size: 50px;
   display: flex;
   justify-content: center;
-  color:black;
-  
+  color: black;
 }
-.btn{
+.btn {
   background-color: #000;
   color: lightgray;
 }
