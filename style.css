@@ -245,27 +245,12 @@ iframe {
   height: 300px;
   margin-left: 90px;
 }
-.mobile{
+.mapsection{
   display: flex;
   flex-direction: column;
-}
-.map2 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
-.container1{
-  display: flex;
-  flex-direction: column;
-}
-.map3{
-  padding: 40px;
 }
 .logo{
-  padding-top: 40px;
+  padding-top: px;
   width: 400px;
   height: 400px;
 }
@@ -468,23 +453,15 @@ iframe {
   margin-left: 90px;
 }
 
-.map2 {
+.mapsection{
   display: flex;
   flex-direction: row;
-  margin-left: 40px;
   justify-content: center;
-  align-items: center;
-  font-size: 20px;
 }
-.container1{
-  display: flex;
-  flex-direction: row;
-}
-.map3{
-  padding: 40px;
-}
+
 .logo{
-  padding-top: 40px;
+  
+  padding-left: 20px;
   width: 400px;
   height: 400px;
 }
