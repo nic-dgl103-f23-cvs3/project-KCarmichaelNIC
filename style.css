@@ -63,9 +63,9 @@ h1 {
   color: white;
   font-weight: bold;
 }
-.buildwithus {
+.buildwithus, .centerbutton{
   margin-top: 1px;
-  background-color: red;
+ background-image: url(images/eberhard-grossgasteiger-iAkAhmq0bvA-unsplash.jpg);
 }
 .hero {
   height: 400px;
