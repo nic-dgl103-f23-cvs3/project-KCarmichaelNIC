@@ -754,3 +754,51 @@ table {
 .btn:hover .btnText{
   color: #000;
 }
+.contactfooter:hover{
+  background-color: #cc4949;
+}
+.aboutfooter:hover{
+  background-color: #cc4949;
+}
+.portfoliofooter:hover{
+  background-color: #cc4949;
+}
+/*page under construction*/
+.under
+{
+background: url(images/SUHmERE.png);
+background-repeat:repeat;
+}
+h1 {
+  text-shadow: 1px 1px 1px #606060;
+  opacity:0.95;
+  margin-top:15px;
+  font-size:35px;
+  color:#202020;
+  font-family:Verdana, Geneva, sans-serif;
+}
+h2 {
+  text-shadow: 1px 1px 1px #606060;
+  opacity:0.95;
+  margin-top:-20px;
+  font-size:25px;
+  color:#202020;
+  font-family:Verdana, Geneva, sans-serif;
+}
+div.overlay{
+  width:100%;
+  position:absolute;
+  top:0; right:0; bottom:0;
+  background-color:black;
+  opacity:0.4;
+  filter:alpha(opacity=40);
+  }
+div.text{
+  text-align:center;
+}
+div.image{
+  width:100%;
+  text-align:center;
+  opacity:0.60;
+  box-shadow:2px 2px 2px #606060;  
+}
