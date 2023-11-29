@@ -326,12 +326,8 @@ header a {
 .build {
   display: flex;
   justify-content: center;
+  font-size: 50px;
 }
-.logo {
-  width: 300px;
-  height: 200px;
-}
-
 .buildwithus {
   display: flex;
   justify-content: center;
@@ -782,7 +778,7 @@ background-repeat:repeat;
   margin-top:15px;
   font-size:35px;
   color:#202020;
-  font-family:Verdana, Geneva, sans-serif;
+  
 }
  .under3{
   text-shadow: 1px 1px 1px #606060;
@@ -791,7 +787,6 @@ background-repeat:repeat;
   margin-top:-20px;
   font-size:25px;
   color:#202020;
-  font-family:Verdana, Geneva, sans-serif;
 }
 div.overlay{
   width:100%;
@@ -811,15 +806,9 @@ div.image{
   box-shadow:2px 2px 2px #606060;  
 }
 .goback{
+  font-size: 50px;
   display: flex;
   justify-content: center;
-font-size: 50px;
-color: #000;
-font-family: "Lato", sans-serif;
-text-transform: capitalize;
-}
-.goback:hover{
-  background-color: #000;
-  color: white;
-  cursor: pointer;
+  color:black;
+  
 }
