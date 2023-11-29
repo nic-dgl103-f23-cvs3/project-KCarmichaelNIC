@@ -759,12 +759,16 @@ table {
 }
 .contactfooter:hover{
   background-color: #cc4949;
+  border: 5px solid green;
 }
 .aboutfooter:hover{
   background-color: #cc4949;
+  border: 5px solid green;
 }
 .portfoliofooter:hover{
   background-color: #cc4949;
+  border: 5px solid green;
+
 }
 /*page under construction*/
 .under
@@ -817,4 +821,5 @@ text-transform: capitalize;
 .goback:hover{
   background-color: #000;
   color: white;
+  cursor: pointer;
 }
