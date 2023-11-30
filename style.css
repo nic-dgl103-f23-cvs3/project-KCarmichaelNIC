@@ -371,7 +371,17 @@ header a {
   font-size: 17px;
   font-family: "Lato", sans-serif;
 }
-
+.aboutbutton{
+  background-color: white;
+  color: #000;
+  font-size: 20px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
+}
+.aboutbutton:hover{
+  color: white;
+  background-color: #000;
+}
 /*portfolio*/
 .Portfolio {
   background-color: black;
@@ -743,6 +753,7 @@ table {
   margin: 0;
   height: 100%;
   width: 100%;
+  color: white;
   background-color: black; /*button initial background color*/
 }
 .btn .btnLable span {
