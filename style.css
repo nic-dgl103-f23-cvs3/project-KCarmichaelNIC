@@ -3,6 +3,7 @@ html {
 }
 body {
   background-color: black;
+  line-height: 1.6;
 }
 
 /*text elements*/
@@ -20,17 +21,17 @@ h2 {
 .navigation3 {
   display: flex;
   flex-direction: row;
-
   display: none;
   max-width: 1170px;
 }
 .logohead {
   width: 90px;
+  padding-bottom: 40px;
 }
 
 header ul {
   display: flex;
-
+justify-content: flex-start;
   list-style: none;
 
   margin-right: 20px;
@@ -66,7 +67,7 @@ h1 {
 .buildwithus,
 .centerbutton {
   margin-top: 1px;
-  background-image: url(images/eberhard-grossgasteiger-iAkAhmq0bvA-unsplash.jpg);
+padding-bottom: 40px;
 }
 .hero {
   height: 400px;
@@ -86,6 +87,11 @@ h1 {
 }
 /*menu*/
 /* watched youtube videos on hamburger menus*/
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
 .burger-checkbox {
   position: absolute;
   visibility: hidden;
@@ -134,7 +140,7 @@ h1 {
 }
 .menu-list {
   top: 0;
-  left: 0;
+  right: 0;
   position: absolute;
   display: grid;
   gap: 12px;
@@ -142,7 +148,7 @@ h1 {
   margin: 0;
   background: green;
   list-style-type: none;
-  transform: translateX(-100%);
+  transform: translateX(100%);
   transition: 0.3s;
   width: 200px;
 }
@@ -167,17 +173,22 @@ h1 {
   text-align: center;
   justify-content: center;
   font-size: 15px;
-  padding-top: 90px;
+  padding-top: 10px;
+}
+.aboutus{
+  max-width: 900px;
 }
 .about {
   color: black;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 .about1 {
   display: flex;
   justify-content: center;
   font-size: 30px;
-  background-image: url();
+
 }
 .aboutbutton {
   color: #a1aeb7;
@@ -221,7 +232,10 @@ video {
   color: white;
   font-size: 20px;
 }
-
+.mapsection{
+  display: flex;
+  flex-direction: column;
+}
 /*footer*/
 
 footer {
@@ -319,6 +333,9 @@ footer a {
 /* DESKTOP*/
 /* Large devices (desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+}
+.hide{
+  display: flex;
 }
 .headerbg {
   background-color: green;
@@ -569,7 +586,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: red;
+  
 }
 /*Form*/
 .contactform {
@@ -742,7 +759,7 @@ table {
 
 .btn {
   border: 3px solid white;
-  border-radius: 25px;
+  border-radius: 5px;
   color: #000;
   width: 200px;
   padding: 0;
@@ -788,15 +805,18 @@ table {
   color: #000;
 }
 .contactfooter:hover {
-  background-color: #cc4949;
+  background-color: white;
+  color: #000;
   border: 5px solid green;
 }
 .aboutfooter:hover {
-  background-color: #cc4949;
+  background-color: white;
+  color: #000;
   border: 5px solid green;
 }
 .portfoliofooter:hover {
-  background-color: #cc4949;
+  background-color: white;
+  color: #000;
   border: 5px solid green;
 }
 /*page under construction*/
