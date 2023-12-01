@@ -85,6 +85,7 @@ h1 {
   background-color: #000;
 }
 /*menu*/
+/* watched youtube videos on hamburger menus*/
 .burger-checkbox {
   position: absolute;
   visibility: hidden;
@@ -826,7 +827,7 @@ div.overlay {
   bottom: 0;
   background-color: black;
   opacity: 0.4;
-  filter: alpha(opacity=40);
+  filter: alpha(opacity=40); /*--Watched a youtube video on filters and opacity*/
 }
 div.text {
   text-align: center;
