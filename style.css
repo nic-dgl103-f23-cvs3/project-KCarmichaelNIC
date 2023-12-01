@@ -371,14 +371,14 @@ header a {
   font-size: 17px;
   font-family: "Lato", sans-serif;
 }
-.aboutbutton{
+.aboutbutton {
   background-color: white;
   color: #000;
   font-size: 20px;
   font-family: "Playfair Display", sans-serif;
   font-weight: bold;
 }
-.aboutbutton:hover{
+.aboutbutton:hover {
   color: white;
   background-color: #000;
 }
