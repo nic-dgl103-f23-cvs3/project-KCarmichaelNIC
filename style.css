@@ -5,7 +5,10 @@ body {
   background-color: black;
   line-height: 1.6;
 }
-
+#main-navigation ul li.active-link>a{
+  text-decoration:underline;
+  color:black;
+}
 /*text elements*/
 p {
   color: white;
@@ -50,7 +53,14 @@ header a {
 
   color: white;
 }
+video{
+  display: flex;
+  width: 300px;
+}
 /*hero*/
+.herobackground{
+  background-image: url(images/eberhard-grossgasteiger-iAkAhmq0bvA-unsplash.jpg);
+}
 h1 {
   color: white;
   clear: both;
@@ -200,13 +210,14 @@ padding-bottom: 40px;
 
 /*portfolio*/
 .projects {
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 3rem;
   text-align: center;
 }
 video {
   margin-top: 0;
-  width: 370px;
+ max-width: 1170px;
+ padding-top: 40px;
 }
 
 /*CTA*/
@@ -236,6 +247,7 @@ video {
   display: flex;
   flex-direction: column;
 }
+
 /*footer*/
 
 footer {
@@ -666,6 +678,7 @@ textarea {
 table {
   color: white;
 }
+
 /*About us page*/
 .qualification {
   font-size: 20px;
