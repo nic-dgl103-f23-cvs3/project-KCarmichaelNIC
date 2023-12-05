@@ -21,18 +21,19 @@
 
 <body>
   <header>
+    <!---Watched youtube videos on how to set active page, also looked at websites-->
     <script>
       // Add active class to the current button (highlight it)
       var header = document.getElementById("headerbg");
       var btns = header.getElementsByClassName("a");
       for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
         });
       }
-      </script>
+    </script>
     <div class="headerbg">
       <div class="menu">
         <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
@@ -44,23 +45,23 @@
         </ul>
       </div>
       <div id="main-navigation">
-      <div class="navigation3">
-        
-        <nav class="hide">
-        
-          <ul>
-           
-            <li><a class="contactfooter" href="index.html">Home</a></li>
+        <div class="navigation3">
 
-            <li><a class="contactfooter" href="contact.html">Contact</a></li>
+          <nav class="hide">
+
+            <ul>
+
+              <li><a class="contactfooter" href="index.html">Home</a></li>
+
+              <li><a class="contactfooter" href="contact.html">Contact</a></li>
 
 
-            <li><a class="contactfooter" href="about.html">About Us</a></li>
-          </ul>
-        </nav>
+              <li><a class="contactfooter" href="about.html">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
   </header>
 
   <main>
@@ -90,7 +91,7 @@
           contracting businesses, bringing together a wealth of expertise, experience, and resources. The founders, each
           with nearly a decade of experience in the field, have built a team committed to delivering high-quality work.
         </h4>
-       
+
         <div class="aboutbuttoncontainer">
           <div class="centerbutton">
             <button class="btn" type="button">
@@ -126,13 +127,13 @@
   <footer>
     <div class="mapsection">
       <div class="mapcolumn">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.1609808856033!2d-125.00047762393154!3d49.67010624324297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548815fec12a547b%3A0xe4875afed0bb3c46!2sPerspective%20Design%20Build%20Ltd.!5e0!3m2!1sen!2sca!4v1700594503180!5m2!1sen!2sca"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.1609808856033!2d-125.00047762393154!3d49.67010624324297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548815fec12a547b%3A0xe4875afed0bb3c46!2sPerspective%20Design%20Build%20Ltd.!5e0!3m2!1sen!2sca!4v1700594503180!5m2!1sen!2sca"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-      <img class="logo" src="images/designlogo.webp" alt="">
-      
+        <img class="logo" src="images/designlogo.webp" alt="">
+
       </div>
     </div>
     <div class="footer2">
