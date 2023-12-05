@@ -881,3 +881,7 @@ div.image {
   background-color: #000;
   color: lightgray;
 }
+.active, .a:hover {
+  background-color: #666;
+  color: black;
+}
