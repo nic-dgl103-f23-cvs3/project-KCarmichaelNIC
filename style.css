@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;/*-- had to use the 62.5 trick/rule */
 }
 body {
   background-color: black;
@@ -9,7 +9,7 @@ body {
   text-decoration: underline;
   color: black;
 }
-/*text elements*/
+/*text*/
 p {
   color: white;
   font-family: "Lato", sans-serif;
@@ -864,7 +864,7 @@ div.overlay {
   opacity: 0.4;
   filter: alpha(
     opacity=40
-  ); /*--Watched a youtube video on filters and opacity*/
+  ); /*--Watched a youtube video on filter and opacity*/
 }
 div.text {
   text-align: center;
