@@ -187,6 +187,8 @@ h1 {
 }
 .aboutus {
   max-width: 900px;
+  display: flex;
+  flex-direction: column;
 }
 .about {
   color: black;
@@ -385,6 +387,7 @@ header a {
 }
 /*about us desktop*/
 .about-us {
+  display: flex;
   background-image: url(images/jon-moore-Zjq1UTyT2kE-unsplash.jpg);
   height: 300px;
 }
@@ -437,6 +440,7 @@ video {
   flex-direction: column;
 }
 .flex-container {
+  padding-top: 60px;
   display: flex;
   justify-content: center;
   background-color: darkgray;
@@ -886,3 +890,7 @@ div.image {
   background-color: #666;
   color: black;
 }
+nav a.active {
+  border-bottom: 2px solid #f2f2f2; /* Underline for active page */
+}
+
