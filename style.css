@@ -279,7 +279,6 @@ iframe {
   flex-direction: column;
 }
 .logo {
-  padding-top: px;
   width: 400px;
   height: 400px;
 }
@@ -862,9 +861,7 @@ div.overlay {
   bottom: 0;
   background-color: black;
   opacity: 0.4;
-  filter: alpha(
-    opacity=40
-  ); /*--Watched a youtube video on filter and opacity*/
+   /*--Watched a youtube video on filter and opacity*/
 }
 div.text {
   text-align: center;
